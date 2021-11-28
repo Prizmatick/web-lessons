@@ -31,6 +31,22 @@ section{
     background-color: #11264E;
     margin: auto;
 }
+#first{
+    margin-left: 55px;
+}
+#logotype{
+    margin-left: 110px;
+    margin-top: 15px;
+}
+h1{
+    display: inline;
+    color: #11264E;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
 h2{
     font-size: 36px;
     font-weight: 700px;
@@ -67,19 +83,4 @@ li{
     text-align: center;
     line-height: 50px;
 }
-h1{
-    display: inline;
-    color: #11264E;
-    font-weight: 700;
-    font-size: 60px;
-    text-align: center;
-    position: absolute;
-    line-height: 200px;
-}
-#first{
-    margin-left: 55px;
-}
-#logotype{
-    margin-left: 110px;
-    margin-top: 15px;
-}
+
