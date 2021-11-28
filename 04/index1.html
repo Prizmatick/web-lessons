@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4blocks</title>
+    <style>
+    .first_block{
+        box-sizing:border-box;
+        width: 400px;
+        height: 40px;
+        border-top: 8px dotted green;
+        border-left: 3px double black;
+        border-bottom: 3px dashed red;
+        border-right: 10px solid blue;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    .second_block{
+        box-sizing:border-box;
+        width: 400px;
+        height: 40px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-top: 5px;
+        border-bottom: 3px solid red;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .third_block{
+        box-sizing:border-box;
+        width: 400px;
+        height: 40px;
+        background: rgb(217, 245, 255);
+        border-left: 10px solid rgb(106, 184, 219);
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+    #fourth_block{
+        box-sizing:border-box;
+        padding-left: 20px;
+        padding-top: 10px;
+        width: 400px;
+        height: 40px;
+        box-shadow: 5px 5px 10px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        display: inline-block;
+    }
+    #fourth_block a {
+    background: #ffffff;
+    color: black; 
+    text-align: center;
+    }
+    #fourth_block a:hover{
+    background:#0089ac;
+    color: white;
+    }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p class = "first_block"> Перший блок</p>
+    </div>
+    <div>
+        <p class = "second_block"> Другий блок</p>
+    </div>
+    <div>
+        <p class = "third_block"> Третій блок</p>
+    </div>
+    <div id = "fourth_block"> 
+        <a href="#">Четвертий блок</a>
+    </div>
+</body>
+</html>
