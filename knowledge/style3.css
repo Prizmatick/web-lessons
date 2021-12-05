@@ -1,0 +1,39 @@
+div{
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    
+}
+.one{
+
+    background-color: rgb(151, 223, 83);
+    flex-basis: 270px;
+}
+.two{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.two_one{
+    display: flex;
+    flex-basis: 300px;
+    background-color: rgb(248, 247, 189);
+}
+.two_two{
+    padding: 10px;
+    display: flex;
+    flex-grow: 3;
+    background-color: white;
+}
+.two_three{
+    display: flex;
+    flex-basis: 300px;
+    background-color: rgb(248, 247, 189);
+}
+.three{
+    
+    background-color: rgb(151, 223, 83);
+    flex-basis: 270px;
+}
