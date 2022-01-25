@@ -41,15 +41,22 @@
         <fieldset>
             <legend> Оцінка ресторану </legend>
             <label class = "lb1" for="radio"> <div class="txt"> Як ви дізналися про наш ресторан? </div> <br>
-           <span class="second_form"> <input type="radio" value="1"> Поруч з будинком\роботою  </span>
-           <span class="second_form"> <input type="radio" value="2"> Реклама  </span>
-           <span class="second_form"> <input type="radio" value="3"> Порадили знайомі  </span>
-           <span class="second_form"> <input type="radio" value="4"> Пошук в мережі інтернет  </span>
-           <span class="second_form"> <input type="radio" value="5"> Інше  </span>
+                <span class="second_form"> <input type="radio" name="contact" value="1">
+                    <label for="radio">Поруч з будинкомроботою</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="2">
+                    <label for="radio">Реклама</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="3">
+                    <label for="radio">Порадили знайомі</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="4">
+                    <label for="radio">Пошук в мережі інтернет</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="5">
+                    <label for="radio">Інше</label> </span>
             </label> 
             <label class = "lb2" for="radio"> <div class="txt"> Чи будете ви рекомендувати наш ресторан знайомим? </div> <br>
-                <span class="second_form"> <input type="radio" value="1"> Так  </span>
-                <span class="second_form"> <input type="radio" value="2"> Ні  </span>
+                <span class="second_form"> <input type="radio" name="contact1" value="1" checked>
+                    <label for="radio">Так</label> </span>
+                 <span class="second_form"> <input type="radio" name="contact1" value="2">
+                    <label for="radio">Ні</label> </span>
             </label>
         </fieldset> 
         <button style = "margin-top: 17px;" name="send"> Відправити </button>
